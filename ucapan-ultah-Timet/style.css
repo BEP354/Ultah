@@ -89,3 +89,25 @@ canvas {
     background-color: #0056b3;
   }
 }
+
+.container {
+  position: relative;
+  min-height: 100vh; /* Membuat kontainer setidaknya sebesar tinggi layar */
+}
+
+.whatsapp-link {
+  position: absolute;
+  bottom: 20px; /* Sesuaikan sesuai kebutuhan */
+  right: 40px; /* Sesuaikan sesuai kebutuhan */
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.whatsapp-logo {
+  width: 50px; /* Sesuaikan sesuai kebutuhan */
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
