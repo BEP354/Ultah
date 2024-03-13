@@ -112,3 +112,18 @@ redirectBtn.addEventListener("click", function() {
     window.location.href = "./login.html"; // Ganti dengan URL halaman tujuan
 });
 
+
+function togglePlayPause() {
+  var music = document.getElementById("bg-music");
+  var button = document.getElementById("play-pause-btn");
+
+  if (music.paused) {
+    music.play();
+    button.classList.remove("play");
+    button.classList.add("pause");
+  } else {
+    music.pause();
+    button.classList.remove("pause");
+    button.classList.add("play");
+  }
+}
